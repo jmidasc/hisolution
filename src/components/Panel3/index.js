@@ -15,7 +15,7 @@ export default () => {
             something unprecedented and intuitive.
           </p>
           <p>
-            Reimagine your career with us because at Developers Studio, we
+            Reimagine your career with us because at Hi-solution E-commerce LTD, we
             believe that “Together we achieve, individually we grow”. We drive
             collaboration, embrace diversity, and respect each other’s
             perspectives. We focus on uplifting employees experiences and are

@@ -8,11 +8,8 @@ export default () => {
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
-    if (scrolled > 300) {
-      setVisible(true);
-    } else if (scrolled <= 300) {
-      setVisible(false);
-    }
+    if (scrolled > 300) setVisible(true);
+    else if (scrolled <= 300) setVisible(false);
   };
 
   const scrollToTop = () => {

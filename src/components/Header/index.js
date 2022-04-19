@@ -183,19 +183,19 @@ const menu = [
       {
         title: "Careers",
         content:
-          "Reimagine your career with Developers Studio and get a chance to work with exceptional talent.",
+          "Reimagine your career with Hi-solution E-commerce LTD and get a chance to work with exceptional talent.",
       },
     ],
     submenucount: 2,
     submenu: [
       {
-        title: "Working at Developers Studio",
-        content: "Developers Studio’s values, perks and benefits.",
+        title: "Working at Hi-solution E-commerce LTD",
+        content: "Hi-solution E-commerce LTD’s values, perks and benefits.",
       },
       {
         title: "Open Positions",
         content:
-          "Current job openings & career information at Developers Studio.",
+          "Current job openings & career information at Hi-solution E-commerce LTD.",
       },
     ],
   },

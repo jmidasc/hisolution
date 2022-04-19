@@ -7,7 +7,7 @@ import "./index.scss";
 export default () => {
   return (
     <div className="panel2">
-      <div className="topic right">
+      <IntersectViewport className="topic right">
         <div className="title">Leading Through Change</div>
         <div className="content">
           Our vision is to inspire the world with our ground-breaking &
@@ -24,8 +24,8 @@ export default () => {
           <p>Zhou Bao Yu (+8613904154300)</p>
           Owner - Hi-solution E-commerce LTD
         </div>
-      </div>
-      <div className="topic middle">
+      </IntersectViewport>
+      <IntersectViewport className="topic middle">
         <div className="title">
           Curious About
           <br />
@@ -35,8 +35,8 @@ export default () => {
           Let’s take a quick glimpse into Hi-solution E-commerce LTD without any further
           ado!
         </div>
-      </div>
-      <div className="topic left">
+      </IntersectViewport>
+      <IntersectViewport className="topic left">
         <div className="title">
           History Of <p>Hi-solution E-commerce LTD</p>
         </div>
@@ -62,7 +62,7 @@ export default () => {
           the trust from a whole bunch of global customers-from startup founders
           to enterprises.
         </div>
-      </div>
+      </IntersectViewport>
     </div>
   );
 };

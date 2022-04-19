@@ -19,9 +19,7 @@ function App() {
       <IntersectViewport>
         <Panel1 />
       </IntersectViewport>
-      <IntersectViewport>
-        <Panel2 />
-      </IntersectViewport>
+      <Panel2 />
       <IntersectViewport>
         <Panel3 />
       </IntersectViewport>
