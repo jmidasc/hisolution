@@ -1,12 +1,10 @@
 .header {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
   height: 72px;
   z-index: 100;
-  background-color: white;
-  box-shadow: 0 1px 1px rgb(0 0 0 / 8%);
 
   display: flex;
   flex-direction: row;
@@ -130,8 +128,18 @@
       perspective: 0px;
       transform: perspective(0px);
       transition: 0.3s ease;
-      &:hover {
-      }
     }
   }
+
+  &:hover {
+    background-color: white;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 8%);
+  }
+}
+.white {
+  background-color: white;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 8%);
+}
+.transparent {
+  background-color: transparent;
 }

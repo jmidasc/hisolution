@@ -4,6 +4,10 @@
   justify-content: center;
   height: 200px;
   padding: 100px 20%;
+  background-image: url("../../logo.jpeg");
+  background-position: center center;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
   h1 {
     font-family: 'Helvetica Neue';
     font-size: 36px;
@@ -11,8 +15,9 @@
     margin-bottom: 10px;
   }
   p {
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
     color: #EF6062;
     margin: 0;
   }

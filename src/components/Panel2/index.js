@@ -1,5 +1,7 @@
 import React from "react";
 
+import IntersectViewport from "../IntersectViewport";
+
 import "./index.scss";
 
 export default () => {
@@ -19,8 +21,8 @@ export default () => {
           who see the possibilities before they become obvious. To help
           businesses realize their full potential, we stay consistent & relevant
           to our client's business goals.
-          <p>Ghulam Muhaiudin</p>
-          CEO- Hi-solution E-commerce LTD
+          <p>Zhou Bao Yu (+8613904154300)</p>
+          Owner - Hi-solution E-commerce LTD
         </div>
       </div>
       <div className="topic middle">

@@ -1,0 +1,13 @@
+.intersect-container {
+  transition: 1s;
+}
+
+.show {
+  opacity: 1;
+  margin-top: 0px;
+}
+
+.hide {
+  opacity: 0;
+  margin-top: -20px;
+}

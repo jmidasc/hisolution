@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 import "./index.scss";
 
@@ -214,14 +214,35 @@ const renderSubMenu = (submenu, count) => {
         </div>
       );
     }
-    resultDiv.push(<div className="submenu-group">{group.map(m => m)}</div>);
+    resultDiv.push(<div className="submenu-group">{group.map((m) => m)}</div>);
   }
-  return <>{resultDiv.map(g => g)}</>;
+  return <>{resultDiv.map((g) => g)}</>;
 };
 
 export default () => {
+  const [scrollTop, setScrollTop] = useState(true);
+  const listenToScroll = () => {
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+
+    const scrolled = winScroll / height;
+    if (scrolled == 0) setScrollTop(true);
+    else setScrollTop(false);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenToScroll);
+    return () => {
+      window.removeEventListener("scroll", listenToScroll);
+    };
+  }, []);
+
   return (
-    <div className="header">
+    <div className={`header ${scrollTop ? "transparent" : "white"}`}>
       <div className="header-menu">
         {menu.map((category) => (
           <div className="header-menu-category">
