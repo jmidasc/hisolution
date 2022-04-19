@@ -11,9 +11,16 @@
   align-items: center;
 
   font-family: "Times New Roman", Times, serif;
-
+  .header-logo {
+    margin-left: 10%;
+    line-height: 72px;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: underline;
+  }
   .header-menu {
-    margin-left: 28%;
+    margin-left: 10%;
     width: 50%;
     font-size: 15px;
     font-weight: 400;

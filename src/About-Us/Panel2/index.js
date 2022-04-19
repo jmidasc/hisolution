@@ -1,6 +1,6 @@
 import React from "react";
 
-import IntersectViewport from "../IntersectViewport";
+import IntersectViewport from "../../components/IntersectViewport";
 
 import "./index.scss";
 
@@ -32,8 +32,8 @@ export default () => {
           Hi-solution E-commerce LTD?
         </div>
         <div className="content">
-          Let’s take a quick glimpse into Hi-solution E-commerce LTD without any further
-          ado!
+          Let’s take a quick glimpse into Hi-solution E-commerce LTD without any
+          further ado!
         </div>
       </IntersectViewport>
       <IntersectViewport className="topic left">
@@ -42,20 +42,21 @@ export default () => {
         </div>
         <div className="content">
           A decade back, in our one-room of our dextrous solution lab, we dared
-          to dream big and created a brand name Hi-solution E-commerce LTD. From a small
-          startup to a global software solutions company in a few years,
-          Hi-solution E-commerce LTD stayed true to its purpose while moving forward to
-          provide ground-breaking software solutions. From day one, Developers
-          Studio strives to improve quality and practice continuous
-          transformation. Our team met and became friends, sharing the love for
-          coding, innovation, and developing enterprise blockchain solutions.
+          to dream big and created a brand name Hi-solution E-commerce LTD. From
+          a small startup to a global software solutions company in a few years,
+          Hi-solution E-commerce LTD stayed true to its purpose while moving
+          forward to provide ground-breaking software solutions. From day one,
+          Hi-solution E-commerce LTD strives to improve quality and practice
+          continuous transformation. Our team met and became friends, sharing
+          the love for coding, innovation, and developing enterprise blockchain
+          solutions.
           <br />
           <br />
-          We formed Hi-solution E-commerce LTD as an emerging global blockchain solution
-          company with similar interests. Since the inception of our operations,
-          the team has engineered a wide array of unique projects and built
-          solutions from scratch with the top talent. We keep our work amazing
-          and smart, with room for a little magical blockchain solution.
+          We formed Hi-solution E-commerce LTD as an emerging global blockchain
+          solution company with similar interests. Since the inception of our
+          operations, the team has engineered a wide array of unique projects
+          and built solutions from scratch with the top talent. We keep our work
+          amazing and smart, with room for a little magical blockchain solution.
           Hi-solution E-commerce LTD is accelerating, boosting its international
           footprint across blockchain platforms, banking, healthcare, retail,
           supply chain, and sustainability platforms. The growth is fuelled by

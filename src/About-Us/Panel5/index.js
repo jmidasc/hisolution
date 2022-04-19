@@ -11,7 +11,7 @@ export default () => {
         <br />
         revolutionary digital product.
       </h3>
-      <a>Give your Product Idea a Shape</a>
+      <a className="btn">Give your Product Idea a Shape</a>
     </div>
   );
 };

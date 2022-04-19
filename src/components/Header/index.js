@@ -1,10 +1,16 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./index.scss";
 
 const menu = [
   {
+    title: "Home",
+    link: "/",
+  },
+  {
     title: "About Us",
+    link: "/about-us",
   },
   {
     title: "Services",
@@ -221,6 +227,7 @@ const renderSubMenu = (submenu, count) => {
 
 export default () => {
   const [scrollTop, setScrollTop] = useState(true);
+  const navigate = useNavigate();
   const listenToScroll = () => {
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
@@ -243,10 +250,18 @@ export default () => {
 
   return (
     <div className={`header ${scrollTop ? "transparent" : "white"}`}>
+      <div className="header-logo">Hi-solution</div>
       <div className="header-menu">
         {menu.map((category) => (
           <div className="header-menu-category">
-            <div className="title">{category.title}</div>
+            <div
+              className="title"
+              onClick={() => {
+                if (category.link != undefined) navigate(category.link);
+              }}
+            >
+              {category.title}
+            </div>
             {category.detail && (
               <div className="submenu">
                 <div className="submenu-group">

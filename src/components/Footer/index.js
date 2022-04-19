@@ -45,7 +45,6 @@ export default () => {
           <p>
             Hi-solution E-commerce LTD <br />
           </p>
-          <h3>Company C-Name:</h3>
           <p>
             沈阳海萨露深电子商务有限公司 <br />
           </p>
