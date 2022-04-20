@@ -53,7 +53,7 @@ export default () => {
             <br />
             <br />
           </p>
-          <h3>Contact:</h3>
+          <h3>Contacts:</h3>
           <p>Zhou Bao Yu (+8613904154300)</p>
         </div>
       </div>
