@@ -42,17 +42,19 @@ export default () => {
         <div className="group">
           <h2>Our Profile</h2>
           <h3>Company E-Name:</h3>
-          <p>
-            Hi-solution E-commerce LTD <br />
-          </p>
+          <p>Hi-solution E-commerce LTD</p>
           <p>
             沈阳海萨露深电子商务有限公司 <br />
+            <br />
           </p>
           <h3>Address:</h3>
           <p>
             Xingshun street no.92, tiexi district, Shenyang, Liaoning, China
             <br />
+            <br />
           </p>
+          <h3>Contacts:</h3>
+          <p>Zhou Bao Yu (+8613904154300)</p>
         </div>
       </div>
       <div className="footer-copyright">
