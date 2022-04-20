@@ -54,7 +54,8 @@ export default () => {
             <br />
           </p>
           <h3>Contacts:</h3>
-          <p>Zhou Bao Yu (+8613904154300)</p>
+          <p>周宝玉</p>
+          <p>hisolutions.soft@gmail.com</p>
         </div>
       </div>
       <div className="footer-copyright">
